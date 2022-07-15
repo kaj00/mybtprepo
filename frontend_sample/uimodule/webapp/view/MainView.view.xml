@@ -1,8 +1,24 @@
-<mvc:View controllerName="gitpg.myapp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
+<mvc:View 
+controllerName="gitpg.myapp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
+ 
   <Page id="page" title="{i18n>title}">
     <content>
+
+    <Title Level="H1" titleStyle="H1">
+      <Link id="link1" text="WEB" target="_blank" press=".onPress" />
+    </Title>
+
+    <Title Level="H1" titleStyle="H1">
+      <Link id="link2" text="WEB" target="_blank" press=".onPress" />
+    </Title>
+
+    <HBox>
+    
+    </HBox>
+
+
       
-      <tnt:NavigationList id="navigationList" width="320px" selectedKey="Files">
+      <!-- <tnt:NavigationList id="navigationList" width="320px" selectedKey="Files">
         <tnt:items>
           <tnt:NavigationListItem id="myListItemHeader" text="myFiles" key="rootItem1" icon="sap-icon://document" items="{myNode>/}">
             <tnt:items>
@@ -10,7 +26,7 @@
             </tnt:items>
           </tnt:NavigationListItem>
         </tnt:items>
-      </tnt:NavigationList>
+      </tnt:NavigationList> -->
     
     </content>
   </Page>
