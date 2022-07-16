@@ -1,7 +1,24 @@
-<mvc:View controllerName="gitpg.myapp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
+<mvc:View controllerName="gitpg.myapp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt" 	xmlns:l="sap.ui.layout">
   <Page id="page" title="{i18n>title}">
     <content>
-      
+
+    <Title level="H1" titleStyle="H1" >
+      <Link id="link0" text="WEB" target="_blank" press='.onPress'/>
+    </Title>
+  
+    <List width="320px">
+      <ActionListItem id="link1" text="1. create" press='.onPress'/>
+      <ActionListItem id="link2" text="2. css" press='.onPress'/>
+      <ActionListItem id="link3" text="3. filelist" press='.onPress'/>
+      <ActionListItem id="link4" text="4. html" press='.onPress'/>
+      <ActionListItem id="link5" text="5. javascript" press='.onPress'/>
+    </List>
+
+    <HBox id="myExtend">
+      <!-- 추가될 화면은 여기에 랜더링 -->
+    </HBox>
+
+    <!--
       <tnt:NavigationList id="navigationList" width="320px" selectedKey="Files">
         <tnt:items>
           <tnt:NavigationListItem id="myListItemHeader" text="myFiles" key="rootItem1" icon="sap-icon://document" items="{myNode>/}">
@@ -11,6 +28,7 @@
           </tnt:NavigationListItem>
         </tnt:items>
       </tnt:NavigationList>
+    -->
     
     </content>
   </Page>

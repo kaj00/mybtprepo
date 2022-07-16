@@ -1,0 +1,12 @@
+<core:FragmentDefinition
+xmlns="sap.m"
+xmlns:core="sap.ui.core">
+
+    <VBox>
+        <Title titleStyle="H2" text="create" />
+            <Input id="input1"/>     
+            <TextArea />
+            <Button text="submit" press="onPress" />
+    </VBox>
+
+</core:FragmentDefinition>
