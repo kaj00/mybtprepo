@@ -9,7 +9,9 @@ sap.ui.define(
   function (Controller, JSONModel, Fragment) {
     "use strict";
 
-    return Controller.extend("gitpg.myapp.controller.MainView", {
+    return Controller.extend("gitpg.myapp.controller.MainView", // 첫번째 파라미터 
+    
+    { // 두번째 파라미터 
       onInit: function () {
         let oJson = new JSONModel();
         this.getView().setModel(oJson, 'myNode');
