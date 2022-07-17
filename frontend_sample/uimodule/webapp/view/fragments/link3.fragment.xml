@@ -9,10 +9,10 @@ xmlns:tnt="sap.tnt">
                     id="navigationList"
                     width="200px"
                     selectedKey="rootItem1">
-                    <tnt:NavigationListItem text="filelist" key="rootItem1" icon="sap-icon://document">
-                        <tnt:NavigationListItem text="file 1" />
-                        <tnt:NavigationListItem text="file 2" />
-                        <tnt:NavigationListItem text="file 3" />
+                    <tnt:NavigationListItem text="File List" key="rootItem1" icon="sap-icon://document">
+                        <tnt:NavigationListItem text="file" />
+                        <tnt:NavigationListItem text="file" />
+                        <tnt:NavigationListItem text="file" />
                     </tnt:NavigationListItem>
                 </tnt:NavigationList>
     </VBox>
