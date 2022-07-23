@@ -5,7 +5,7 @@ xmlns:tnt="sap.tnt">
 
     <VBox>
         <Title titleStyle="H2" text="filelist" />
-                <tnt:NavigationList
+                <!-- <tnt:NavigationList
                     id="navigationList"
                     width="200px"
                     selectedKey="rootItem1">
@@ -14,7 +14,18 @@ xmlns:tnt="sap.tnt">
                         <tnt:NavigationListItem text="file" />
                         <tnt:NavigationListItem text="file" />
                     </tnt:NavigationListItem>
-                </tnt:NavigationList>
+                </tnt:NavigationList> -->
+
+                 <!-- <List items = "{myDataa>/myArr2}"> 
+                            <items> 
+                                <ActionListItem id="link" text= "{myDataa>filename}" /> 
+                            </items>
+                        </List> -->
+
+        <List items = "{myData>/}"> 
+            <ActionListItem id="Link" text="{myData>}" press=".onPress" /> 
+
+        </List> 
     </VBox>
 
 </core:FragmentDefinition>

@@ -6,13 +6,37 @@
       <Link id="link0" text="WEB" target="_blank" press='.onPress'/>
     </Title>
   
-    <List width="320px">
-      <ActionListItem id="link1" text="1. create" press='.onPress'/>
-      <ActionListItem id="link2" text="2. css" press='.onPress'/>
-      <ActionListItem id="link3" text="3. filelist" press='.onPress'/>
-      <ActionListItem id="link4" text="4. html" press='.onPress'/>
-      <ActionListItem id="link5" text="5. javascript" press='.onPress'/>
+    <List width="320px"> 
+      <items>
+          <ActionListItem id="link1" text="1. create" press='.onPress'/>
+          <ActionListItem id="link2" text="2. css" press='.onPress'/>
+          <ActionListItem id="link3" text="3. filelist" press='.onPress'/>
+          <ActionListItem id="link4" text="4. html" press='.onPress'/>
+          <ActionListItem id="link5" text="5. javascript" press='.onPress'/>
+      </items>
     </List>
+
+     <!-- // 어그리게이션 바인딩 부분  -->
+     <!-- // 어그리게이션 바인딩 =  데이터와 화면의 컨트롤의 어그리게이션을 엮는 것
+          // 바인딩은 데이터와 화면 사이를 엮는 것이고,
+           백엔드의 파일 리스트가 몇 개인지 알 수 없기 때문에 바인딩을 하는 것 -->
+
+
+     <!-- <List items = "{myData>/}">  //{}= itmes를 바인딩 처리하겠다는 뜻-->
+
+     <!--
+      <List items = "{myDataa>/myArr1}">
+        <items> 
+          <ActionListItem id="link" text= "{myDataa>filename}_{myDataa>fileType}" /> 
+        </items>
+      </List> 
+    -->
+
+    <!--
+      <List items = "{myData>/}"> 
+        <ActionListItem id="Link" text="{myData>}" press=".onPress" />
+      </List> 
+    -->
 
     <HBox id="myExtend">
       <!-- 추가될 화면은 여기에 랜더링 -->
