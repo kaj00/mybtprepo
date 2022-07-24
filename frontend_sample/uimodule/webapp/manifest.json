@@ -76,6 +76,13 @@
           "target": [
             "TargetMainView"
           ]
+        },
+        { 
+          "name": "FileDetail", 
+          "pattern": "FileDetail/{filepath}",
+          "target" : [
+            "FileDetailView"
+          ]
         }
       ],
       "targets": {
@@ -85,6 +92,13 @@
           "clearControlAggregation": false,
           "viewId": "MainView",
           "viewName": "MainView"
+        },
+        "FileDetailView" : {
+          "viewType": "XML",
+          "transition" : "slide",
+          "clearControlAggregation": false,
+          "viewId": "FileDetail",
+          "viewName": "FileDetail"
         }
       }
     },

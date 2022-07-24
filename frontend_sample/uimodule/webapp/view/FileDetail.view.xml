@@ -1,0 +1,8 @@
+<mvc:View controllerName="gitpg.myapp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt" 	xmlns:l="sap.ui.layout">
+  <Page id="page" title="{i18n>title}">
+    <content>
+      <Text  text = "hello"/>
+    
+    </content>
+  </Page>
+</mvc:View>

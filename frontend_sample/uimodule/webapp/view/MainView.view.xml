@@ -24,13 +24,13 @@
 
      <!-- <List items = "{myData>/}">  //{}= itmes를 바인딩 처리하겠다는 뜻-->
 
-     <!--
-      <List items = "{myDataa>/myArr1}">
+     
+      <List items = "{myData>/myArr1}">
         <items> 
-          <ActionListItem id="link" text= "{myDataa>filename}_{myDataa>fileType}" /> 
+          <ActionListItem id="link" text= "{myData>filename}_{myData>fileType}" /> 
         </items>
       </List> 
-    -->
+   
 
     <!--
       <List items = "{myData>/}"> 
